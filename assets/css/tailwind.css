@@ -1,0 +1,42 @@
+
+ @tailwind base;
+
+ @tailwind components;
+ 
+ @tailwind utilities;
+
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Lato-Medium.ttf);
+}
+
+.section-first-num{
+    left: calc(30% - 95px);
+}
+.section-first-logo{
+    margin-left: 30%;
+}
+.section-first-text{
+    left: calc(30% + 30px);
+}
+.section-second-num{
+    left: calc(30% - 70px);
+}
+.section-second-logo{
+    margin-left: 32%;
+}
+.section-second-text{
+    left: calc(30% + 55px);
+}
+.section-third-num{
+    left: calc(30% - 50px);
+}
+.section-third-logo{
+    margin-left: calc(30% - 30px);
+}
+.section-third-text{
+    left: calc(30% + 80px);
+}
